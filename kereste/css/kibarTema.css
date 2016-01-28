@@ -1,0 +1,155 @@
+.white-space{height:300px; }
+.zero { margin: 0; padding:0;}
+
+header{width: 100%; background: #252525; text-align: right}
+header li{display: inline-block;margin-right: 10px;}
+header ul{margin:0;}
+header li a {color: #7f7f7f;line-height: 2 } 
+header li a:hover{opacity:0.7 }
+header .secili{color: white !important;}
+
+nav{background-color: #fff !important;    height: 6rem;padding-top: 1rem}
+.nav-wrapper li a{color:#545454; font-weight: 500; text-transform: uppercase; font-size: 15px; }
+.nav-wrapper li a:hover{background: transparent;color: #dc2142 } 
+.nav-wrapper img{width:140px}
+
+.nav-f { color: whitesmoke; font-family: 'Ubuntu', sans-serif;}
+.nav-f:hover{ background: transparent; color: #F3F2F2!important; }
+
+footer.page-footer {background: #282828; color: white; margin-bottom: 0;  padding: 0;}
+.page-footer h5{font-size: 17px; }
+
+/*.footer-social span{float:right; font-size: 20px; color: #fcad4b; }*/
+
+.divider{opacity:.3 !important;}
+.kurumsal-dropdown-content{width: 150px !important;}
+.kurumsal-dropdown-content li{min-height: 33px;}
+.kurumsal-dropdown-content li a{font-size: .8rem; line-height: .7rem;padding:15px}
+.kurumsal-dropdown-content li:first-child{border-top:3px solid #dc2142;}
+.kurumsal-dropdown-content li a:hover{color: #545454}
+
+
+.politika-dropdown-content{width: 200px !important;}
+.politika-dropdown-content li{min-height: 33px;}
+.politika-dropdown-content li a{font-size: .8rem; line-height: .7rem;padding:15px}
+.politika-dropdown-content li:first-child{border-top:3px solid #dc2142;}
+.politika-dropdown-content li a:hover{color: #545454}
+
+
+.basin-dropdown-content{width: 180px !important;}
+.basin-dropdown-content li{min-height: 33px;}
+.basin-dropdown-content li a{font-size: .8rem; line-height: .7rem;padding:15px}
+.basin-dropdown-content li:first-child{border-top:3px solid #dc2142;}
+.basin-dropdown-content li a:hover{color: #545454;}
+
+
+.slider .indicators .indicator-item.active{background: #dc2142; }
+.slider .slides{height: 550px !important;}
+
+
+.urunContainer {height:auto;width: 100%;background-color: #dc2142;
+position: absolute;top:18%;z-index:2;display:none; padding: 79px 0 79px;
+}
+
+
+.wrapper{margin-top: -2.2rem}
+.urunContainer ul li a{color:white;text-transform: capitalize;line-height: 2.3;margin-left:.5rem}
+.urunContainer ul li{border-bottom:1px solid #DB516A}
+.urunContainer ul li:hover{background-color: rgba(255,255,255,0.2)}
+.urunContainer ul li a{color:white;text-transform: capitalize}
+.urunDetay{background-color: #F2F4F5;margin-top: 1.6rem; height:340px}
+.urunDetayImg{width: 393px;height: 280px; margin-left: -10px; margin-top: 60px;
+background-image: url("../img/urunler/2.png") ;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.urunDetay img{width: 393px;height: auto; margin-top: 4rem; margin-left: -10px}
+.urunAciklama{margin-top: 3rem;}
+
+
+#layerslider * {font-family: Lato, 'Open Sans', sans-serif; }
+
+#companySlider {
+    width: 79%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid  #dddddd; }
+#companySlider .wrapper{ width: 100%; position: absolute; }
+
+#companySlider .sliderItem { width: 25%;  float: left; }
+#companySlider .sliderItem img{ width: 60%;height: auto; }
+
+h3{ font-family: 'Open Sans', sans-serif;
+    margin:0;padding-top: 50px;
+    font-weight:300;
+    font-size:2.4rem;
+    text-align: center;
+    letter-spacing: 1px;
+    }
+
+h4{ font-family: 'Open Sans', sans-serif;
+    color:#b5b5b5;
+    padding: 0;
+    margin: 5px;
+    font-weight:500;
+    font-size:1rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#infoNav {
+    margin-top: 0px;
+    z-index: 100; 
+    width: 80%; }
+
+#infoNav .box {position: relative; z-index: 2;}
+
+#infoNav .box img {
+    width: 100%;
+    margin: 0;
+    margin-top: -12%;
+    height: auto;  }
+
+#infoNav .box h1 {
+    position: absolute;
+    width: 70%;
+    height: 40px;
+    left: 16%;
+    line-height: 40px;
+    margin-top: -32%;
+    text-align: center;
+    background: rgba(244, 67, 54, 0.5);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;  }
+
+@media screen and (max-width: 960px) {
+    #infoNav .box {
+        margin-top: 15%;
+        width: 100%; } }
+
+.footer-alt { color: white; font-size: 80%; text-decoration: none; }
+
+.footer-p p { margin:0; }
+.footer-social { padding-top:20px; padding-bottom: 20px; background: #1e1e1e; bottom: 0;}
+.footer-social i { margin-right: 10%; font-size: 130%; } 
+
+.digiSoft { color: #dc2145;  font-size: 80%;}
+
+/**********/
+
+
+.collapsible-body ul li a{
+    
+    font-size: 80%!important;
+}
+
+.sidenav-font{
+    
+    font-size: 90%!important;
+}
